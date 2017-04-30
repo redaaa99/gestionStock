@@ -1,7 +1,7 @@
 /* ****************************************
   * Titre : Mini Projet CP2 *             *
   * Auteurs: Meskali Reda - Mastane Jihane*
-  * Encadrée par Pr.MILOUD LAHMAIM        *
+  * EncadrÃ©e par Pr.MILOUD LAHMAIM        *
   *                                       *
   ******************************************/
 
@@ -12,7 +12,7 @@
 #include <string.h>
 #include <windows.h>
 #include <errno.h>
-#include <Menu.h>
+#include "Menu.h"
 
 
 int main()
