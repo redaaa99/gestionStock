@@ -6,7 +6,7 @@
 #include <errno.h>
 
 
-typedef struct{
+typedef struct Article{
     int ID;
     char Rubrique[30];
     char Unit[10];
@@ -346,7 +346,7 @@ void ElimineDoublons(Article* Liste){
     Article* suivDesuiv;
 
     if (actuel == NULL)
-       return 0;
+       return;
     while (actuel->suivant != NULL)
     {
 
